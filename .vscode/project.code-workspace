@@ -1,0 +1,41 @@
+{
+  "folders": [
+    {
+      "name": "🌱  application-tracker",
+      "path": ".."
+    },
+    {
+      "name": "🌐  web",
+      "path": "../apps/web"
+    }
+  ],
+  "settings": {
+    "conventionalCommits.scopes": ["web"],
+    "ColorfulMonorepo.workspaces.collection": [
+      {
+        "path": "/home/rishi/Documents/application-tracker",
+        "packageName": "@application-tracker/source",
+        "label": "🌱  application-tracker",
+        "foreground": "#000000",
+        "background": "#feb2ff"
+      },
+      {
+        "path": "/home/rishi/Documents/application-tracker/apps/web",
+        "packageName": "web",
+        "label": "🌐  web",
+        "foreground": "#ffffff",
+        "background": "#05443d"
+      }
+    ],
+    "files.exclude": {},
+    "workbench.colorCustomizations": {
+			"statusBar.background": "#feb2ff",
+			"statusBar.foreground": "#000000",
+			"tab.activeBorder": "#feb2ff",
+			"sideBarTitle.foreground": "#feb2ff"
+		}
+  },
+  "extensions": {
+    "recommendations": ["nrwl.angular-console", "esbenp.prettier-vscode"]
+  }
+}
