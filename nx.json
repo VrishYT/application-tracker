@@ -10,5 +10,16 @@
       "default"
     ],
     "sharedGlobals": []
+  },
+  "targetDefaults": {
+    "build": {
+      "outputs": [
+        "{projectRoot}/dist/web"
+      ],
+      "cache": true
+    },
+    "test": {
+      "cache": true
+    }
   }
 }
